@@ -1,8 +1,35 @@
-# Sitio Web Estático - Bruja y Santera
+# Santeros - Sitio Web Espiritual
 
-Este sitio web ha sido completamente limpiado y preparado para ser independiente del dominio original. Está listo para ser subido a cualquier nuevo dominio sin dependencias externas.
+Sitio web profesional para servicios espirituales y consultas de santería, completamente optimizado y listo para despliegue en Vercel.
 
-## ✅ Cambios Realizados
+## 🚀 Despliegue en Vercel
+
+Este repositorio está configurado para desplegarse automáticamente en Vercel:
+
+1. **Conectar con GitHub**: Sube este repositorio a GitHub
+2. **Importar en Vercel**: Ve a [vercel.com](https://vercel.com) e importa el repositorio
+3. **Despliegue automático**: Vercel detectará automáticamente que es un sitio estático
+4. **Configuración incluida**: El archivo `vercel.json` ya está configurado
+
+### Comandos para GitHub
+
+```bash
+# Crear repositorio en GitHub y conectarlo
+git remote add origin https://github.com/tu-usuario/santeros.git
+git branch -M main
+git push -u origin main
+```
+
+## 📋 Características del Sitio
+
+- ✅ **100% Independiente**: Sin dependencias externas problemáticas
+- ✅ **Optimizado para Vercel**: Configuración incluida
+- ✅ **Responsive**: Compatible con todos los dispositivos
+- ✅ **WhatsApp Integration**: Enlaces directos configurados
+- ✅ **Video Autoplay**: Video promocional incluido
+- ✅ **SEO Optimizado**: Meta tags y estructura correcta
+
+## 🛠️ Cambios Realizados
 
 ### Limpieza de HTTrack
 - ✅ Eliminados todos los comentarios de HTTrack
@@ -22,7 +49,7 @@ Este sitio web ha sido completamente limpiado y preparado para ser independiente
 - ✅ Removido timer.js no utilizado que causaba errores
 - ✅ Eliminado directorio flipclock innecesario
 
-### Optimización
+### Optimización para Vercel
 - ✅ Mantenidas solo las dependencias necesarias (Google Fonts)
 - ✅ Conservados todos los archivos estáticos esenciales
 - ✅ Verificado funcionamiento sin errores en navegador
